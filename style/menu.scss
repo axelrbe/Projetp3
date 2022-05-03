@@ -1,12 +1,12 @@
 /*animation bloc*/
 .box__element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     animation-duration: 1s;
     animation-name: delay;
     transform: scale(0);
     animation-fill-mode: both;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 @keyframes delay {
@@ -207,7 +207,7 @@ a {
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        transition: all 0.4s ease;
+        transition: all 0.4s ease-in-out;
     }
 
     .fa-circle-check {
@@ -297,7 +297,7 @@ footer {
         justify-content: center;
 
         h1 {
-            font-size: 30px;
+            font-size: 40px;
         }
 
         .heart__contener {
@@ -313,6 +313,7 @@ footer {
         h2 {
             align-self: center;
             width: auto;
+            font-size: 20px;
         }
     }
 
@@ -370,6 +371,7 @@ footer {
 
         h2 {
             align-self: start;
+            font-size: 20px;
         }
     }
 
