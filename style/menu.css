@@ -48,13 +48,13 @@
 }
 
 .animation2 {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
 }
 
 .animation3 {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
 }
 
 /*animation bloc*/
