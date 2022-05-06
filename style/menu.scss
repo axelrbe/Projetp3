@@ -126,14 +126,14 @@ a {
             -webkit-text-fill-color: transparent;
         }
 
-        &:active {
+        &:hover {
             .emptyheart {
-                transition: opacity .3s;
+                transition: opacity 1.2s;
                 opacity: 0;
             }
 
             .fullheart {
-                transition: opacity .3s;
+                transition: opacity 1.2s;
                 opacity: 1;
             }
         }

@@ -343,15 +343,15 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
-.box__contener .heart__contener:active .emptyheart {
-  -webkit-transition: opacity .3s;
-  transition: opacity .3s;
+.box__contener .heart__contener:hover .emptyheart {
+  -webkit-transition: opacity 1.2s;
+  transition: opacity 1.2s;
   opacity: 0;
 }
 
-.box__contener .heart__contener:active .fullheart {
-  -webkit-transition: opacity .3s;
-  transition: opacity .3s;
+.box__contener .heart__contener:hover .fullheart {
+  -webkit-transition: opacity 1.2s;
+  transition: opacity 1.2s;
   opacity: 1;
 }
 
