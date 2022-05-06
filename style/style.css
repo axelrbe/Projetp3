@@ -152,8 +152,10 @@ header {
 }
 
 .header .explorez:hover {
-  -webkit-animation: bouton 2s;
-          animation: bouton 2s;
+  -webkit-animation: bouton 3s;
+          animation: bouton 3s;
+  -webkit-box-shadow: 3px 3px 10px black;
+          box-shadow: 3px 3px 10px black;
 }
 
 @-webkit-keyframes bouton {

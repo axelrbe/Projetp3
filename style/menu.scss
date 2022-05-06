@@ -233,7 +233,11 @@ a {
     padding-bottom: 60px;
 
     &:hover {
-        animation: bouton 2s;
+        animation: bouton 3s;
+    }
+
+    .commandez:hover {
+        box-shadow: 3px 3px 10px black;
     }
 }
 

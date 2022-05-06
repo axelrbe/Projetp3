@@ -122,7 +122,8 @@ header {
         background: linear-gradient($pink, $purple);
 
         &:hover {
-            animation: bouton 2s;
+            animation: bouton 3s;
+            box-shadow: 3px 3px 10px black;
         }
     }
 
